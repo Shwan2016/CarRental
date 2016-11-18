@@ -175,11 +175,37 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611180444173_AddCustomerTable.cs" />
+    <Compile Include="Migrations\201611180444173_AddCustomerTable.Designer.cs">
+      <DependentUpon>201611180444173_AddCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611180504510_AddIsSubscribed.cs" />
+    <Compile Include="Migrations\201611180504510_AddIsSubscribed.Designer.cs">
+      <DependentUpon>201611180504510_AddIsSubscribed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611180510082_AddMembershipType.cs" />
+    <Compile Include="Migrations\201611180510082_AddMembershipType.Designer.cs">
+      <DependentUpon>201611180510082_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611180756042_AddMembershipType2.cs" />
+    <Compile Include="Migrations\201611180756042_AddMembershipType2.Designer.cs">
+      <DependentUpon>201611180756042_AddMembershipType2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611180756453_PopulateMembershipType.cs" />
+    <Compile Include="Migrations\201611180756453_PopulateMembershipType.Designer.cs">
+      <DependentUpon>201611180756453_PopulateMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611180809339_ApplyAnnotationToCustomerName.cs" />
+    <Compile Include="Migrations\201611180809339_ApplyAnnotationToCustomerName.Designer.cs">
+      <DependentUpon>201611180809339_ApplyAnnotationToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -254,6 +280,26 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611180444173_AddCustomerTable.resx">
+      <DependentUpon>201611180444173_AddCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611180504510_AddIsSubscribed.resx">
+      <DependentUpon>201611180504510_AddIsSubscribed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611180510082_AddMembershipType.resx">
+      <DependentUpon>201611180510082_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611180756042_AddMembershipType2.resx">
+      <DependentUpon>201611180756042_AddMembershipType2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611180756453_PopulateMembershipType.resx">
+      <DependentUpon>201611180756453_PopulateMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611180809339_ApplyAnnotationToCustomerName.resx">
+      <DependentUpon>201611180809339_ApplyAnnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
