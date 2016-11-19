@@ -16,6 +16,12 @@ namespace CarRental.Controllers
         {
             _context = new ApplicationDbContext();
         }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
         public ActionResult Index()
         {
             var cars = _context.Cars.Include(c => c.CarModel).ToList();
