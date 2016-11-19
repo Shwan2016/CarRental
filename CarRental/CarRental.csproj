@@ -215,9 +215,42 @@
     <Compile Include="Migrations\201611181907311_AddApplyAnnotationToMembershipTypeName.Designer.cs">
       <DependentUpon>201611181907311_AddApplyAnnotationToMembershipTypeName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611182136166_AddPropertiesToCar.cs" />
+    <Compile Include="Migrations\201611182136166_AddPropertiesToCar.Designer.cs">
+      <DependentUpon>201611182136166_AddPropertiesToCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611182157072_AddCarModelClass.cs" />
+    <Compile Include="Migrations\201611182157072_AddCarModelClass.Designer.cs">
+      <DependentUpon>201611182157072_AddCarModelClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611182227522_PopulateCarType.cs" />
+    <Compile Include="Migrations\201611182227522_PopulateCarType.Designer.cs">
+      <DependentUpon>201611182227522_PopulateCarType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611182307569_AlterPropertiesForCar.cs" />
+    <Compile Include="Migrations\201611182307569_AlterPropertiesForCar.Designer.cs">
+      <DependentUpon>201611182307569_AlterPropertiesForCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611182311106_AlterPropertiesForCar2.cs" />
+    <Compile Include="Migrations\201611182311106_AlterPropertiesForCar2.Designer.cs">
+      <DependentUpon>201611182311106_AlterPropertiesForCar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611190141004_AddChangesToPropertiesOfCar.cs" />
+    <Compile Include="Migrations\201611190141004_AddChangesToPropertiesOfCar.Designer.cs">
+      <DependentUpon>201611190141004_AddChangesToPropertiesOfCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611190159308_AddDataAnnotationForCarAndCarModel.cs" />
+    <Compile Include="Migrations\201611190159308_AddDataAnnotationForCarAndCarModel.Designer.cs">
+      <DependentUpon>201611190159308_AddDataAnnotationForCarAndCarModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611190353151_AlterCarModelData.cs" />
+    <Compile Include="Migrations\201611190353151_AlterCarModelData.Designer.cs">
+      <DependentUpon>201611190353151_AlterCarModelData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\CarModel.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -329,6 +362,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611181907311_AddApplyAnnotationToMembershipTypeName.resx">
       <DependentUpon>201611181907311_AddApplyAnnotationToMembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611182136166_AddPropertiesToCar.resx">
+      <DependentUpon>201611182136166_AddPropertiesToCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611182157072_AddCarModelClass.resx">
+      <DependentUpon>201611182157072_AddCarModelClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611182227522_PopulateCarType.resx">
+      <DependentUpon>201611182227522_PopulateCarType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611182307569_AlterPropertiesForCar.resx">
+      <DependentUpon>201611182307569_AlterPropertiesForCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611182311106_AlterPropertiesForCar2.resx">
+      <DependentUpon>201611182311106_AlterPropertiesForCar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611190141004_AddChangesToPropertiesOfCar.resx">
+      <DependentUpon>201611190141004_AddChangesToPropertiesOfCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611190159308_AddDataAnnotationForCarAndCarModel.resx">
+      <DependentUpon>201611190159308_AddDataAnnotationForCarAndCarModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611190353151_AlterCarModelData.resx">
+      <DependentUpon>201611190353151_AlterCarModelData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

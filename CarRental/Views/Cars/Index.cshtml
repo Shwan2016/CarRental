@@ -15,7 +15,9 @@ else
     <table class="table table-hover table-bordered">
         <thead>
             <tr>
-                <th>Car</th>
+                <th>Car Model</th>
+                <th>Car Make</th>
+                <th>Year</th>
             </tr>
         </thead>
         <tbody>
@@ -23,6 +25,8 @@ else
             {
                 <tr>
                     <td>@Html.ActionLink(car.Name, "Details", "Cars", new { id = car.Id }, null)</td>
+                    <td>@car.CarModel.Name</td>
+                    <td>@car.Year</td>
                 </tr>
             }
         </tbody>
